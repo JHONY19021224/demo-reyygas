@@ -6,6 +6,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import {PagesModule} from './pages/pages.module';
+
 
 
 @NgModule({
@@ -15,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule, 
     IonicModule.forRoot(), 
+    PagesModule,
     AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

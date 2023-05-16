@@ -33,12 +33,21 @@
             <ion-label>Ayuda</ion-label>
           </ion-item>
 
-          <div >
-            <div class="ion-activatable ripple-parent custom-parent">
-              cerrar sesión
-              <ion-ripple-effect></ion-ripple-effect>
-            </div>
-          </div>
+          <ion-item routerLink="/set-productos" routerDirection="root">
+            <ion-icon slot="start" name="create"></ion-icon>
+            <ion-label>configuracion de productos</ion-label>
+          </ion-item>
+        
+          <ion-grid>
+            <ion-row class="ion-justify-content-center">
+              <ion-col size="5">
+                    <ion-button  >
+                      Cerrrar Sesion
+                    </ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        
 
         </ion-menu-toggle>
       </ion-list>

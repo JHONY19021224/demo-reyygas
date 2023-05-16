@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 
+
 const routes: Routes = [
+
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
@@ -33,6 +35,11 @@ const routes: Routes = [
     path: 'ayuda',
     loadChildren: () => import('./pages/ayuda/ayuda.module').then( m => m.AyudaPageModule)
   },
+  {
+    path: 'set-productos',
+    loadChildren: () => import('./backend/set-productos/set-productos.module').then( m => m.SetProductosPageModule)
+  },
+  
 ];
 
 @NgModule({

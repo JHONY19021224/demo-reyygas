@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>configuracion de productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+<h3 class="subtitulo p-3 text-center encabezado" >Ingresa datos del producto </h3>
+
+<ion-card>
+
+          <ion-item>
+                <ion-label class="normal"  position="floating">
+                  Nombre:
+                </ion-label>
+                <ion-input class="normal" type="text" inputmode="text" >
+                </ion-input>
+        </ion-item>
+          
+        <ion-item>
+                <ion-label class="normal"  position="floating">
+                  Precio normal:
+                </ion-label>
+                <ion-input class="normal" type="number" inputmode="numeric" >
+                </ion-input>
+              </ion-item>
+        <ion-item>
+              <ion-label class="normal"  position="floating">
+                Descripcion:
+              </ion-label>
+              <ion-input class="normal" type="number" inputmode="numeric" >
+              </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label class="normal"  position="floating">
+            Foto:
+              </ion-label>
+              <ion-buttons slot="end">
+              <ion-button>
+                <ion-icon slot="icon-only" name="images"></ion-icon>
+              </ion-button>
+              </ion-buttons>
+            
+        </ion-item>
+</ion-card>
+
+
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col size="5">
+          <ion-button  >
+            Guardar
+          </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
+</ion-content>
