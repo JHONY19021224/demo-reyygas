@@ -31,7 +31,7 @@ const routes: Routes = [
     path: 'fugas',
     loadChildren: () => import('./pages/fugas/fugas.module').then( m => m.FugasPageModule)
   },
-  
+
   {
     path: 'set-productos',
     loadChildren: () => import('./backend/set-productos/set-productos.module').then( m => m.SetProductosPageModule)

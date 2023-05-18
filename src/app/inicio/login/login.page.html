@@ -1,26 +1,29 @@
 <ion-content>
-  <div class="flex-center">
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title color="success">Iniciar Sesion</ion-card-title>
-      </ion-card-header>
-
-      
-      <ion-card-content>
+  <div class="login-section ion-padding">
+    <div class="heading ion-padding">
+      <h1>Bienvenido</h1>
+      <p>Sign in to continue</p>
+    </div>
+    <div class="login-form ion-padding">
+      <div class="form-input">
+        <ion-icon name="email-outline"></ion-icon>
         <ion-item>
           <ion-label position="floating">Email</ion-label>
           <ion-input type="email"></ion-input>
         </ion-item>
+      </div>
+      <div class="form-input">
+        <ion-icon name="look-closed-outline"></ion-icon>
         <ion-item>
           <ion-label position="floating">Password</ion-label>
           <ion-input type="password"></ion-input>
         </ion-item>
-        <ion-item>
-          <ion-button color="dark" fill="clear" size="full">Forgot email/password</ion-button>
-          <ion-button color="success" size="full">Login</ion-button>
-          <ion-button color="success" fill="clear" size="full">Register</ion-button>
-        </ion-item>
-      </ion-card-content>
-    </ion-card>
+      </div>
+    </div>
+    <div class="action-button ion-padding">
+      <ion-button size="large" class="login-button">Log in</ion-button>
+      <p>Forgot password??</p>
+      <ion-button class="signup-button" size="large" fill="outline" routerLink="/signup">Sign up</ion-button>
+    </div>
   </div>
 </ion-content>
