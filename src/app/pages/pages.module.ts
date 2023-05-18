@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AyudaPage } from './ayuda/ayuda.page';
 import { CarritoPage } from './carrito/carrito.page';
 import { FugasPage } from './fugas/fugas.page';
 import { InicioPage } from './inicio/inicio.page';
