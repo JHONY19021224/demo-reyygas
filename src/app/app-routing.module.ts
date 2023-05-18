@@ -18,7 +18,7 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
   },
- 
+
   {
     path: 'pedido',
     loadChildren: () => import('./pages/pedido/pedido.module').then( m => m.PedidoPageModule)
@@ -38,12 +38,21 @@ const routes: Routes = [
   {
     path: 'set-productos',
     loadChildren: () => import('./backend/set-productos/set-productos.module').then( m => m.SetProductosPageModule)
-  },  {
-    path: 'welcome',
-    loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
+  },
+  {
+    path: 'loader',
+    loadChildren: () => import('./inicio/loader/loader.module').then( m => m.LoaderPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./inicio/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'registro',
+    loadChildren: () => import('./inicio/registro/registro.module').then( m => m.RegistroPageModule)
   },
 
-  
+
 ];
 
 @NgModule({
