@@ -38,7 +38,11 @@ const routes: Routes = [
   {
     path: 'set-productos',
     loadChildren: () => import('./backend/set-productos/set-productos.module').then( m => m.SetProductosPageModule)
+  },  {
+    path: 'welcome',
+    loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
   },
+
   
 ];
 
