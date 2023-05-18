@@ -39,3 +39,10 @@
 .normal{
     font-family: 'Roboto', sans-serif;
 }
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
