@@ -55,6 +55,10 @@ const routes: Routes = [
     path: 'reguladores',
     loadChildren: () => import('./pages/reguladores/reguladores.module').then( m => m.ReguladoresPageModule)
   },
+  {
+    path: 'recetas',
+    loadChildren: () => import('./pages/recetas/recetas.module').then( m => m.RecetasPageModule)
+  },
 
 
 
