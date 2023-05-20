@@ -47,7 +47,8 @@ const routes: Routes = [
   {
     path: 'registro',
     loadChildren: () => import('./inicio/registro/registro.module').then( m => m.RegistroPageModule)
-  },  {
+  },
+  {
     path: 'tanques',
     loadChildren: () => import('./pages/tanques/tanques.module').then( m => m.TanquesPageModule)
   },
@@ -58,6 +59,10 @@ const routes: Routes = [
   {
     path: 'recetas',
     loadChildren: () => import('./pages/recetas/recetas.module').then( m => m.RecetasPageModule)
+  },
+  {
+    path: 'conexiones',
+    loadChildren: () => import('./pages/conexiones/conexiones.module').then( m => m.ConexionesPageModule)
   },
 
 

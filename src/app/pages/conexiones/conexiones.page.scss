@@ -1,0 +1,41 @@
+
+.categorias{
+    margin: 30px;
+    padding: 20px;
+    background: #e9ecef;
+    border-radius: 20px ;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .precio{
+    // margin: 30px;
+    // padding: 20px;
+    background: #e9ecef;
+    border-radius: 25px ;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.carrito{
+   // margin: 30px;
+    // padding: 20px;
+    background: #e10ea5;
+    border-radius: 25px ;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+}
+.card{
+  background: rgb(255, 255, 255);
+  //height: 100px;
+  //width: 100px;
+  margin: auto;
+  text-align: justify;
+  //line-height: 100px;
+  color: black;
+  border-bottom: 3px dashed blueviolet;
+}
