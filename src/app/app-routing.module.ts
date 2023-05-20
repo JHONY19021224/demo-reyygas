@@ -51,6 +51,10 @@ const routes: Routes = [
     path: 'tanques',
     loadChildren: () => import('./pages/tanques/tanques.module').then( m => m.TanquesPageModule)
   },
+  {
+    path: 'reguladores',
+    loadChildren: () => import('./pages/reguladores/reguladores.module').then( m => m.ReguladoresPageModule)
+  },
 
 
 
