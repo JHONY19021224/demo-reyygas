@@ -19,7 +19,7 @@
 }
 
 .slider {
-  width: 75vw;
+  width: 85vw;
   height: auto;
   margin: auto;
   overflow: hidden;
@@ -27,13 +27,13 @@
 
 .slider .slide-track {
   display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(200px * 14);
+  animation: scroll 20s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+  width: calc(130px * 14);
 }
 
 .slider .slide {
-  width: 200px;
+  width: 130px;
 }
 
 .slider .slide img {
@@ -46,7 +46,7 @@
       transform: translateX(0);
   }
   100% {
-      -webkit-transform: translateX(calc(-200px * 7));
-      transform: translateX(calc(-200px * 7));
+      -webkit-transform: translateX(calc(-130px * 7));
+      transform: translateX(calc(-130px * 7));
   }
 }
