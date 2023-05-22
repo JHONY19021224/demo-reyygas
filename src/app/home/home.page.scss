@@ -26,9 +26,25 @@
        color: aliceblue;
        line-height: 1.6;
 
+
+       .call{
+        --background: #ff4d58;
+        margin-right: 20px;
+        }
+        .sms{
+            --background: rgba(8, 251, 89, 0.614);
+        }
       }
     
 }
+
+.call{
+  --background: #b000fb3e;
+  margin-right: 20px;
+  }
+  .sms{
+      --background: #b000fb40;
+  }
 
 
 .slider {
@@ -66,6 +82,7 @@
 
 .bottom-section{
   background: url("/assets/rectangle.jpg");
+  min-height: 100px;
   background-repeat: no-repeat ;
   background-size: 100%;
   display: flex;
@@ -86,7 +103,7 @@
   }
   p{
       color: #3f3e3e;
-      margin-top: 8px;
+      margin-top: 4px;
   }
   }
 }
