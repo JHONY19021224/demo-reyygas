@@ -18,6 +18,14 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
   },
+  {
+    path: 'tienda',
+    loadChildren: () => import('./tienda/tienda.module').then( m => m.TiendaPageModule)
+  },
+  {
+    path: 'shop',
+    loadChildren: () => import('./pages/shop/shop.module').then( m => m.ShopPageModule)
+  },
 
   {
     path: 'pedido',
@@ -65,18 +73,8 @@ const routes: Routes = [
   {
     path: 'pedido-pg2',
     loadChildren: () => import('./pages/pedido-pg2/pedido-pg2.module').then( m => m.PedidoPg2PageModule)
-  },  {
-    path: 'casa',
-    loadChildren: () => import('./casa/casa.module').then( m => m.CasaPageModule)
   },
-  {
-    path: 'tienda',
-    loadChildren: () => import('./tienda/tienda.module').then( m => m.TiendaPageModule)
-  },
-  {
-    path: 'shop',
-    loadChildren: () => import('./pages/shop/shop.module').then( m => m.ShopPageModule)
-  },
+ 
 
 ];
 
