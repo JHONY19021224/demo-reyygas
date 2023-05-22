@@ -7,11 +7,9 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
-    <span class="Pedido">
-      Pedido
-    </span>
+<ion-content color="primary">
+  <img src="/assets/logo.jpg">
+  <ion-title>Nuevo pedido</ion-title>
   <ion-card>
     <ion-item>
       <ion-select label="Prioridad de entrega" placeholder="Selecciona">
@@ -20,14 +18,24 @@
         <ion-select-option value="snes">Rojo</ion-select-option>
       </ion-select>
     </ion-item>
-    <ion-text>Fecha de pedido</ion-text>
-  <ion-datetime-button datetime="datetime"></ion-datetime-button>
-
+    <ion-list>Fecha de pedido</ion-list>
+  <ion-datetime-button datetime="datetime" color="primary"></ion-datetime-button>
   <ion-modal [keepContentsMounted]="true">
     <ng-template>
       <ion-datetime id="datetime">Fecha de entrega</ion-datetime>
     </ng-template>
   </ion-modal>
+  <ion-item>
+    <ion-text slot="start">Tipo de tanque</ion-text>
+    <ion-list>
+      <ion-item>
+        <ion-select aria-label="aria-label" interface="popover" placeholder="Selecciona">
+          <ion-select-option value="estacionario">Estacionario</ion-select-option>
+          <ion-select-option value="portatil">Portatil</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </ion-item>
     <ion-item>
       <ion-text slot="start">Desea factura?</ion-text>
       <ion-list>
@@ -40,7 +48,7 @@
       </ion-list>
     </ion-item>
     <div class="action-button ion-padding">
-      <ion-button size="large" class="pedido-button" routerLink="/pedido-pg2">Siguiente</ion-button>
+      <ion-button size="small" class="pedido-button" routerLink="/pedido-pg2">Siguiente</ion-button>
     </div>
   </ion-card>
 </ion-content>
