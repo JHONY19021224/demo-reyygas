@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import {PagesModule} from './pages/pages.module';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,

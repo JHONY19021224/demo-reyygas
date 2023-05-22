@@ -75,6 +75,10 @@ const routes: Routes = [
     path: 'category-item',
     loadChildren: () => import('./componentes/category-item/category-item.module').then( m => m.CategoryItemPageModule)
   },
+  {
+    path: 'food-card',
+    loadChildren: () => import('./componentes/food-card/food-card.module').then( m => m.FoodCardPageModule)
+  },
 
 
 
