@@ -65,7 +65,11 @@ const routes: Routes = [
   {
     path: 'pedido-pg2',
     loadChildren: () => import('./pages/pedido-pg2/pedido-pg2.module').then( m => m.PedidoPg2PageModule)
+  },  {
+    path: 'casa',
+    loadChildren: () => import('./casa/casa.module').then( m => m.CasaPageModule)
   },
+
 ];
 
 @NgModule({
