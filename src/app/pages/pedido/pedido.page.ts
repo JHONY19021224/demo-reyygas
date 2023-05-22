@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pedido.page.scss'],
 })
 export class PedidoPage implements OnInit {
+  navCtrl: any;
 
   constructor() { }
 
   ngOnInit() {
   }
-
+  ir_pagina2(){
+    this.navCtrl.push("Pagina2Page");
+  }
 }
