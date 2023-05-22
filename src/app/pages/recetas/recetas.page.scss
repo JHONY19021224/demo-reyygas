@@ -1,0 +1,26 @@
+.top-section{
+    min-height: 150px;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    background-color: #FF5392;
+    padding-bottom: 32px;
+    
+    h2{
+        margin-top: 10px;
+        font-size: 1.8rem;
+        font-weight: 20px;
+        color: aliceblue;
+       
+    }
+    h3{
+        color: aliceblue;
+        font-weight: bold;
+        margin: 0;
+       } 
+       p{
+        color: aliceblue;
+        line-height: 1.6;
+
+       }
+      
+}
