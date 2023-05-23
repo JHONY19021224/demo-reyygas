@@ -1,13 +1,43 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>shop</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="ion-padding">
+  <!--HEADER -->
+  <div id="header" class="ion-margin-bottom">
+    <ion-icon id="menu-icon" name="grid-outline"></ion-icon>
+    <div id="location">
+      <ion-icon name="location"></ion-icon>
+      <h4 class="ion-no-margin">Zanzibar</h4>
+    </div>
+    <div id="avatar">
+      <ion-img src="../../../assets/avatar.png"></ion-img>
+    </div>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">shop</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+  <!-- SEARCHBAR -->
+  <ion-searchbar></ion-searchbar>
+
+  <!-- BANNER -->
+  <div id="banner">
+    <ion-img src="../../../assets/18.jpg"></ion-img>
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="list-title">
+    <h3 class="title">Top Categories</h3>
+  </div>
+
+  <!-- <ion-slides [options]="slidesthemes">
+    <ion-slide *ngFor="let item of categories">
+      <category-item [category]="item"></category-item>
+    </ion-slide>
+  </ion-slides>  -->
+
+
+  <!-- EXCLUSIVE OFFER -->
+  <div class="list-title">
+    <h3 class="title">Exclusive Offer</h3>
+    <a href="">See All</a>
+  </div>
+
+  <div class="product-list">
+    <product-card *ngFor="let product of products" [product]="product"></product-card>
+  </div>
+</ion-content>  

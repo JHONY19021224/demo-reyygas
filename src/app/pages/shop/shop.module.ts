@@ -7,13 +7,17 @@ import { IonicModule } from '@ionic/angular';
 import { ShopPageRoutingModule } from './shop-routing.module';
 
 import { ShopPage } from './shop.page';
+import { CategoryItemModule } from 'src/app/components/category-item/category-item.module';
+import { ProductCardModule } from 'src/app/components/product-card/product-card.model';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ShopPageRoutingModule
+    ShopPageRoutingModule,
+    CategoryItemModule,
+    ProductCardModule,
   ],
   declarations: [ShopPage]
 })
