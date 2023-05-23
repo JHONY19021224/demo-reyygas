@@ -72,14 +72,6 @@ const routes: Routes = [
     path: 'pedido-pg2',
     loadChildren: () => import('./pages/pedido-pg2/pedido-pg2.module').then( m => m.PedidoPg2PageModule)
   },
-  {
-    path: 'pedido-pg3',
-    loadChildren: () => import('./pages/pedido-pg3/pedido-pg3.module').then( m => m.PedidoPg3PageModule)
-  },
-
-
-
-
 ];
 
 @NgModule({
