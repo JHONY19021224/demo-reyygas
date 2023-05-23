@@ -48,10 +48,7 @@ const routes: Routes = [
     path: 'registro',
     loadChildren: () => import('./inicio/registro/registro.module').then( m => m.RegistroPageModule)
   },
-  {
-    path: 'tanques',
-    loadChildren: () => import('./pages/tanques/tanques.module').then( m => m.TanquesPageModule)
-  },
+ 
   {
     path: 'reguladores',
     loadChildren: () => import('./pages/reguladores/reguladores.module').then( m => m.ReguladoresPageModule)
@@ -64,10 +61,7 @@ const routes: Routes = [
     path: 'conexiones',
     loadChildren: () => import('./pages/conexiones/conexiones.module').then( m => m.ConexionesPageModule)
   },
-  {
-    path: 'tienda',
-    loadChildren: () => import('./pages/tienda/tienda.module').then( m => m.TiendaPageModule)
-  },
+ 
   {
     path: 'pedido-pg2',
     loadChildren: () => import('./pages/pedido-pg2/pedido-pg2.module').then( m => m.PedidoPg2PageModule)
