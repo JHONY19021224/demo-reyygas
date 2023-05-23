@@ -63,21 +63,10 @@ const routes: Routes = [
   {
     path: 'conexiones',
     loadChildren: () => import('./pages/conexiones/conexiones.module').then( m => m.ConexionesPageModule)
-  },  {
+  },
+  {
     path: 'tienda',
     loadChildren: () => import('./pages/tienda/tienda.module').then( m => m.TiendaPageModule)
-  },
-  {
-    path: 'searchbar',
-    loadChildren: () => import('./componentes/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
-  },
-  {
-    path: 'category-item',
-    loadChildren: () => import('./componentes/category-item/category-item.module').then( m => m.CategoryItemPageModule)
-  },
-  {
-    path: 'food-card',
-    loadChildren: () => import('./componentes/food-card/food-card.module').then( m => m.FoodCardPageModule)
   },
   {
     path: 'pedido-pg2',
