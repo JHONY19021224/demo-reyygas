@@ -30,7 +30,7 @@
   }
   
   ion-searchbar {
-    --box-shadow: none;
+    --box-shadow:var(--border-radius)
     --background: #eef7f1;
     --border-radius: 1rem;
     --placeholder-font-weight: 600;
@@ -73,3 +73,12 @@
     grid-gap: 10px;
   }
   
+
+  .top-section{
+    min-height: 150px;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    background-color: #FF5392;
+    padding-bottom: 32px;
+
+  }

@@ -42,32 +42,32 @@ export class ShopPage implements OnInit {
       {
         id: 1,
         price: 4.99,
-        name: 'Organic Banana',
-        image: 'assets/items/banana.jpg',
+        name: 'Tanque estacionario',
+        image: 'assets/items/estacionario.jpg',
       },
       {
         id: 2,
         price: 6.66,
-        name: 'Fresh Oranges',
-        image: 'assets/items/oranges.jpg',
+        name: 'Regulador de gas',
+        image: 'assets/items/regulador.jpg',
       },
       {
         id: 3,
         price: 4.78,
         name: 'Chicken eggs',
-        image: 'assets/items/eggs.jpg',
+        image: 'assets/items/portatil.jpg',
       },
       {
         id: 4,
         price: 5.78,
-        name: 'Vegetables',
-        image: 'assets/items/vegetables.jpg',
+        name: 'Mangera de gas lp',
+        image: 'assets/items/mangera.jpg',
       },
       {
         id: 4,
         price: 3.78,
-        name: 'Pemba Lemons',
-        image: 'assets/items/lemon.jpg',
+        name: 'Perico',
+        image: 'assets/items/perico.jpg',
       },
     ];
   }
