@@ -17,7 +17,7 @@ export class ClientService {
       })
     );
   }
-
+ 
   // Función para obtener los números de los operadores
   getPhoneNumbers() {
     return this.http.get('assets/db/numbers.json').pipe(
@@ -26,4 +26,11 @@ export class ClientService {
       })
     );
   }
+
+  getRecipes(category: string) {
+    let url = `${environment.api_url}/recetas?populate=*`;
+    if (category && category !== 'Todos') {
+      url += `&filters[categorias_receta][categoria][$eq]=${category}`;
+    }
+}
 }

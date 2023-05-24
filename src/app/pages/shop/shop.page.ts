@@ -28,8 +28,8 @@ export class ShopPage implements OnInit {
 
   getCategories() {
     return [
-      { name: 'Vegetables', image: 'assets/categories/1.jpg' },
-      { name: 'Bakery', image: 'assets/categories/2.jpg' },
+      { name: 'tanque estacionario', image: 'assets/items/estacionario.jpg' },
+      { name: 'Regulador de gas', image: 'assets/categories/2.jpg' },
       { name: 'Drinks', image: 'assets/categories/6.jpg' },
       { name: 'Meat & Eggs', image: 'assets/categories/3.jpg' },
       { name: 'Fruits', image: 'assets/categories/5.jpg' },
@@ -41,32 +41,32 @@ export class ShopPage implements OnInit {
     return [
       {
         id: 1,
-        price: 4.99,
+        price: 5000,
         name: 'Tanque estacionario',
         image: 'assets/items/estacionario.jpg',
       },
       {
         id: 2,
-        price: 6.66,
+        price: 300,
         name: 'Regulador de gas',
         image: 'assets/items/regulador.jpg',
       },
       {
         id: 3,
         price: 4.78,
-        name: 'Chicken eggs',
+        name: 'Tanque portartil',
         image: 'assets/items/portatil.jpg',
       },
       {
         id: 4,
-        price: 5.78,
+        price: 200,
         name: 'Mangera de gas lp',
         image: 'assets/items/mangera.jpg',
       },
       {
         id: 4,
-        price: 3.78,
-        name: 'Perico',
+        price: 400,
+        name: 'perico',
         image: 'assets/items/perico.jpg',
       },
     ];

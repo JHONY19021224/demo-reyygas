@@ -20,6 +20,9 @@ ion-content{
     h1{
       font-size: 1.6rem;
       font-weight: bolder;
+      --background: rgba(8, 251, 89, 0.614);
+   
+      
     }
     p{
       margin-top: 20px;
@@ -78,3 +81,12 @@ ion-content{
     }
   }
 }
+
+
+ 
+#banner {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: -2rem;
+}
+
